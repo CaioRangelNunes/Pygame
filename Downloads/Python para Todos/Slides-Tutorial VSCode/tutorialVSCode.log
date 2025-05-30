@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  30 MAY 2025 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  30 MAY 2025 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,7 +1026,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [4
 
 ]
-<Imagem1.png, id=163, 462.22687pt x 181.42781pt>
+<Imagem1.png, id=168, 462.22687pt x 181.42781pt>
 File: Imagem1.png Graphic file (type png)
 <use Imagem1.png>
 Package pdftex.def Info: Imagem1.png  used on input line 88.
@@ -1034,7 +1034,7 @@ Package pdftex.def Info: Imagem1.png  used on input line 88.
  [5
 
  <./Imagem1.png>]
-<Imagem2.png, id=191, 610.53094pt x 198.7425pt>
+<Imagem2.png, id=196, 610.53094pt x 198.7425pt>
 File: Imagem2.png Graphic file (type png)
 <use Imagem2.png>
 Package pdftex.def Info: Imagem2.png  used on input line 95.
@@ -1042,7 +1042,7 @@ Package pdftex.def Info: Imagem2.png  used on input line 95.
  [6
 
  <./Imagem2.png>]
-<Imagem3.png, id=217, 234.8775pt x 106.14656pt>
+<Imagem3.png, id=222, 234.8775pt x 106.14656pt>
 File: Imagem3.png Graphic file (type png)
 <use Imagem3.png>
 Package pdftex.def Info: Imagem3.png  used on input line 103.
@@ -1050,7 +1050,7 @@ Package pdftex.def Info: Imagem3.png  used on input line 103.
  [7
 
  <./Imagem3.png>]
-<Imagem4.png, id=245, 590.95781pt x 82.05656pt>
+<Imagem4.png, id=250, 590.95781pt x 82.05656pt>
 File: Imagem4.png Graphic file (type png)
 <use Imagem4.png>
 Package pdftex.def Info: Imagem4.png  used on input line 109.
@@ -1063,7 +1063,7 @@ Overfull \hbox (79.66649pt too wide) in paragraph at lines 109--109
 [8
 
  <./Imagem4.png>]
-<Imagem5.jpg, id=271, 1566.85374pt x 439.6425pt>
+<Imagem5.jpg, id=276, 1566.85374pt x 439.6425pt>
 File: Imagem5.jpg Graphic file (type jpg)
 <use Imagem5.jpg>
 Package pdftex.def Info: Imagem5.jpg  used on input line 127.
@@ -1073,7 +1073,7 @@ Package pdftex.def Info: Imagem5.jpg  used on input line 127.
  <./Imagem5.jpg>] [10
 
 ]
-<Imagem 6.png, id=322, 722.7pt x 754.82pt>
+<Imagem 6.png, id=327, 722.7pt x 754.82pt>
 File: Imagem 6.png Graphic file (type png)
 <use Imagem 6.png>
 Package pdftex.def Info: Imagem 6.png  used on input line 159.
@@ -1081,7 +1081,7 @@ Package pdftex.def Info: Imagem 6.png  used on input line 159.
  [11
 
  <./Imagem 6.png>]
-<Imagem7.png, id=349, 803.0pt x 827.09pt>
+<Imagem7.png, id=354, 803.0pt x 827.09pt>
 File: Imagem7.png Graphic file (type png)
 <use Imagem7.png>
 Package pdftex.def Info: Imagem7.png  used on input line 172.
@@ -1194,7 +1194,7 @@ Alternatively, save the file in UTF-8 using your editor or another tool
  (tutorialVSCode.vrb) [16
 
 ]
-<Imagem8.png, id=477, 800.9925pt x 633.36626pt>
+<Imagem8.png, id=483, 800.9925pt x 633.36626pt>
 File: Imagem8.png Graphic file (type png)
 <use Imagem8.png>
 Package pdftex.def Info: Imagem8.png  used on input line 245.
@@ -1205,7 +1205,165 @@ Overfull \vbox (61.06657pt too high) detected at line 245
 
 [17
 
- <./Imagem8.png>] [18
+ <./Imagem8.png>]
+\openout4 = `tutorialVSCode.vrb'.
+
+ (tutorialVSCode.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...ol_pos = pg.Vector2(velocidade,0) # será 
+                                                  o valor que irá controlar...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...ol_pos = pg.Vector2(velocidade,0) # será 
+                                                  o valor que irá controlar...
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...r2(velocidade,0) # será o valor que irá 
+                                                  controlar a posição da maca
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...r2(velocidade,0) # será o valor que irá 
+                                                  controlar a posição da maca
+
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...á o valor que irá controlar a posição 
+                                                  da maca
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A7.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...á o valor que irá controlar a posição 
+                                                  da maca
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...á o valor que irá controlar a posição 
+                                                  da maca
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...á o valor que irá controlar a posição 
+                                                  da maca
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 lista_cobra = [] #sera a lista que ficará 
+                                                a cobra
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 lista_cobra = [] #sera a lista que ficará 
+                                                a cobra
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+) [18
 
 ]
 \tf@nav=\write6
@@ -1222,21 +1380,14 @@ Overfull \vbox (61.06657pt too high) detected at line 245
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `tutorialVSCode.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tutorialVSCode.out':
-(rerunfilecheck)             Before: DC21E96407AC35E5602E381728BCC555;1301
-(rerunfilecheck)             After:  378833D437619498582A99E1FA2D293F;1486.
+Package rerunfilecheck Info: File `tutorialVSCode.out' has not changed.
+(rerunfilecheck)             Checksum: 378833D437619498582A99E1FA2D293F;1486.
  ) 
 Here is how much of TeX's memory you used:
- 24393 strings out of 474478
- 469672 string characters out of 5743571
+ 24414 strings out of 474478
+ 470027 string characters out of 5743571
  2157542 words of memory out of 5000000
- 46115 multiletter control sequences out of 15000+600000
+ 46134 multiletter control sequences out of 15000+600000
  567151 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,391b,1342s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1247,9 +1398,9 @@ blic/amsfonts/cm/cmr17.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmr6.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/vitor/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on tutorialVSCode.pdf (18 pages, 368609 bytes).
+Output written on tutorialVSCode.pdf (18 pages, 371591 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
+ 573 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

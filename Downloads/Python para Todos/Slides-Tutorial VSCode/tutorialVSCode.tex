@@ -245,8 +245,24 @@ while True:
 	\end{frame}
 	
 	\section{Criando o jogo da cobrinha}
-	\begin{frame}{Criando o jogo da cobrinha}
+	\begin{frame}[fragile]{Criando o jogo da cobrinha}
 		
+		\begin{lstlisting}
+import pygame as pg
+import random as rd
+pg.init()
+velocidade=5
+largura, altura = 720, 720
+tela = pg.display.set_mode((largura, altura))
+clock = pg.time.Clock()
+tamanho_cobra = 15  #define quantos quadrados nossa cobra tera inicialmente
+initial_control = pg.Vector2(velocidade,0)
+tam = 30 # valor do tamanho dos objetos
+cobra_pos = pg.Vector2(tela.get_width()/2, tela.get_height()/2)
+maca_pos = pg.Vector2(rd.randint(tam, largura-tam), rd.randint(tam, altura-tam))
+control_pos = pg.Vector2(velocidade,0) # será o valor que irá controlar a posição da maca
+lista_cobra = [] #sera a lista que ficará a cobra
+		\end{lstlisting}
 		
 	\end{frame}
 	
