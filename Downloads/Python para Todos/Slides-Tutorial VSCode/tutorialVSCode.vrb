@@ -1,14 +1,20 @@
-\frametitle{Exemplo de Código Python}
+\frametitle{Uma breve visão do Pygame}
 \begin{lstlisting}
-			import pygame
-			
-			pygame.init()
-			tela = pygame.display.set_mode((800, 600))
-			
-			rodando = True
-			while rodando:
-			for evento in pygame.event.get():
-			if evento.type == pygame.QUIT:
-			rodando = False
-			pygame.quit()
+while True:
+	clock.tick(60)  # 60 FPS
+	tela.fill('white') #preenche o fundo com a cor branca
+	for evento in pg.event.get():
+		if evento.type == pg.QUIT: #caso o jogo foi fechado
+			pg.quit()
+	teclas = pg.key.get_pressed() #pega tecla digitada
+	if teclas[pg.K_a]:
+		x -= velocidade #diminui a posicao do x
+	if teclas[pg.K_d]:
+		x += velocidade #aumenta a posicao do x
+	if teclas[pg.K_w]:
+		y -= velocidade #diminui a posicao do y
+	if teclas[pg.K_s]:
+		y += velocidade #aumenta a posicao do y
+	pg.draw.rect(tela,'red',(x, y, 50, 50))
+	pg.display.update() #atualiza a tela	
 		\end{lstlisting}

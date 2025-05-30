@@ -6,3 +6,4 @@
 \beamer@sectionintoc {6}{Vantagens do Pygame}{10}{0}{6}
 \beamer@sectionintoc {7}{O que iremos criar nesse curso?}{11}{0}{7}
 \beamer@sectionintoc {8}{Uma breve visão do Pygame}{13}{0}{8}
+\beamer@sectionintoc {9}{Criando o jogo da cobrinha}{18}{0}{9}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  30 MAY 2025 08:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  30 MAY 2025 10:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,27 +855,62 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 
 )
 (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemes
-erif.sty) (tutorialVSCode.aux)
+erif.sty)
+(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listing\listing.sty
+Package: listing 1999/05/25
+
+Package `listing', V1.2, <1999/05/25>
+\c@listing=\count339
+) (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count340
+\lst@gtempboxa=\box79
+\lst@token=\toks50
+\lst@length=\count341
+\lst@currlwidth=\dimen302
+\lst@column=\count342
+\lst@pos=\count343
+\lst@lostspace=\dimen303
+\lst@width=\dimen304
+\lst@newlines=\count344
+\lst@lineno=\count345
+\lst@maxwidth=\dimen305
+(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count346
+\lst@skipnumbers=\count347
+\lst@framebox=\box80
+)
+(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+(tutorialVSCode.aux)
 \openout1 = `tutorialVSCode.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -915,17 +950,17 @@ LaTeX Font Info:    ... okay on input line 34.
 (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen302
-\scratchbox=\box79
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen303
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count348
+\scratchdimen=\dimen306
+\scratchbox=\box81
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen307
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks52
 )
 (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -937,7 +972,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 49.
  (tutorialVSCode.out) (tutorialVSCode.out)
 \@outlinefile=\write5
 \openout5 = `tutorialVSCode.out'.
@@ -966,19 +1001,21 @@ Dictionary: translator-numbers-dictionary, Language: English
 (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-t
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (tutorialVSCode.nav) [1
+)
+\c@lstlisting=\count354
+ (tutorialVSCode.nav) [1
 
 {C:/Users/vitor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (tutorialVSC
 ode.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
 
 
 (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
 
 
 (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -992,7 +1029,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Imagem1.png, id=163, 462.22687pt x 181.42781pt>
 File: Imagem1.png Graphic file (type png)
 <use Imagem1.png>
-Package pdftex.def Info: Imagem1.png  used on input line 73.
+Package pdftex.def Info: Imagem1.png  used on input line 88.
 (pdftex.def)             Requested size: 318.67209pt x 125.08289pt.
  [5
 
@@ -1000,7 +1037,7 @@ Package pdftex.def Info: Imagem1.png  used on input line 73.
 <Imagem2.png, id=191, 610.53094pt x 198.7425pt>
 File: Imagem2.png Graphic file (type png)
 <use Imagem2.png>
-Package pdftex.def Info: Imagem2.png  used on input line 80.
+Package pdftex.def Info: Imagem2.png  used on input line 95.
 (pdftex.def)             Requested size: 318.67209pt x 103.73788pt.
  [6
 
@@ -1008,7 +1045,7 @@ Package pdftex.def Info: Imagem2.png  used on input line 80.
 <Imagem3.png, id=217, 234.8775pt x 106.14656pt>
 File: Imagem3.png Graphic file (type png)
 <use Imagem3.png>
-Package pdftex.def Info: Imagem3.png  used on input line 88.
+Package pdftex.def Info: Imagem3.png  used on input line 103.
 (pdftex.def)             Requested size: 318.67209pt x 144.01566pt.
  [7
 
@@ -1016,10 +1053,10 @@ Package pdftex.def Info: Imagem3.png  used on input line 88.
 <Imagem4.png, id=245, 590.95781pt x 82.05656pt>
 File: Imagem4.png Graphic file (type png)
 <use Imagem4.png>
-Package pdftex.def Info: Imagem4.png  used on input line 94.
+Package pdftex.def Info: Imagem4.png  used on input line 109.
 (pdftex.def)             Requested size: 478.00508pt x 66.37404pt.
 
-Overfull \hbox (79.66649pt too wide) in paragraph at lines 94--94
+Overfull \hbox (79.66649pt too wide) in paragraph at lines 109--109
  [][] 
  []
 
@@ -1029,7 +1066,7 @@ Overfull \hbox (79.66649pt too wide) in paragraph at lines 94--94
 <Imagem5.jpg, id=271, 1566.85374pt x 439.6425pt>
 File: Imagem5.jpg Graphic file (type jpg)
 <use Imagem5.jpg>
-Package pdftex.def Info: Imagem5.jpg  used on input line 112.
+Package pdftex.def Info: Imagem5.jpg  used on input line 127.
 (pdftex.def)             Requested size: 278.83578pt x 78.2333pt.
  [9
 
@@ -1039,7 +1076,7 @@ Package pdftex.def Info: Imagem5.jpg  used on input line 112.
 <Imagem 6.png, id=322, 722.7pt x 754.82pt>
 File: Imagem 6.png Graphic file (type png)
 <use Imagem 6.png>
-Package pdftex.def Info: Imagem 6.png  used on input line 144.
+Package pdftex.def Info: Imagem 6.png  used on input line 159.
 (pdftex.def)             Requested size: 111.0428pt x 115.97083pt.
  [11
 
@@ -1047,13 +1084,128 @@ Package pdftex.def Info: Imagem 6.png  used on input line 144.
 <Imagem7.png, id=349, 803.0pt x 827.09pt>
 File: Imagem7.png Graphic file (type png)
 <use Imagem7.png>
-Package pdftex.def Info: Imagem7.png  used on input line 157.
+Package pdftex.def Info: Imagem7.png  used on input line 172.
 (pdftex.def)             Requested size: 111.0428pt x 114.3657pt.
  [12
 
  <./Imagem7.png>] [13
 
 ] [14
+
+]
+\openout4 = `tutorialVSCode.vrb'.
+
+ (tutorialVSCode.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 x, y = 100,100 #define a posição 
+                                        inicial do jogador		
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A7.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 x, y = 100,100 #define a posição 
+                                        inicial do jogador		
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 x, y = 100,100 #define a posição 
+                                        inicial do jogador		
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 x, y = 100,100 #define a posição 
+                                        inicial do jogador		
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 clock = pg.time.Clock() #cria a variável 
+                                               do clock do jogo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 clock = pg.time.Clock() #cria a variável 
+                                               do clock do jogo
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+) [15
+
+]
+\openout4 = `tutorialVSCode.vrb'.
+
+ (tutorialVSCode.vrb) [16
+
+]
+<Imagem8.png, id=477, 800.9925pt x 633.36626pt>
+File: Imagem8.png Graphic file (type png)
+<use Imagem8.png>
+Package pdftex.def Info: Imagem8.png  used on input line 245.
+(pdftex.def)             Requested size: 278.83578pt x 220.48312pt.
+
+Overfull \vbox (61.06657pt too high) detected at line 245
+ []
+
+[17
+
+ <./Imagem8.png>] [18
 
 ]
 \tf@nav=\write6
@@ -1070,25 +1222,34 @@ Package pdftex.def Info: Imagem7.png  used on input line 157.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `tutorialVSCode.out' has not changed.
-(rerunfilecheck)             Checksum: DC21E96407AC35E5602E381728BCC555;1301.
+
+
+Package rerunfilecheck Warning: File `tutorialVSCode.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tutorialVSCode.out':
+(rerunfilecheck)             Before: DC21E96407AC35E5602E381728BCC555;1301
+(rerunfilecheck)             After:  378833D437619498582A99E1FA2D293F;1486.
  ) 
 Here is how much of TeX's memory you used:
- 22476 strings out of 474478
- 443447 string characters out of 5743571
- 1934542 words of memory out of 5000000
- 44234 multiletter control sequences out of 15000+600000
- 566814 words of font info for 70 fonts, out of 8000000 for 9000
+ 24393 strings out of 474478
+ 469672 string characters out of 5743571
+ 2157542 words of memory out of 5000000
+ 46115 multiletter control sequences out of 15000+600000
+ 567151 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,391b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,123p,391b,1342s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr12.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr17.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/symbols/msam10.pfb>
-Output written on tutorialVSCode.pdf (14 pages, 309446 bytes).
+type1/public/amsfonts/cm/cmr6.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/vitor/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on tutorialVSCode.pdf (18 pages, 368609 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,10 +8,25 @@
 \usepackage{xfrac}
 \usefonttheme{serif}
 \usepackage{graphicx}
+\usepackage{listing}
+\usepackage{listings}
+\usepackage{xcolor}
 
-
-
-
+\lstset{
+	basicstyle=\ttfamily\footnotesize,
+	keywordstyle=\color{blue},
+	commentstyle=\color{gray},
+	stringstyle=\color{red},
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=1,
+	numbersep=8pt,
+	frame=single,
+	breaklines=true,
+	showstringspaces=false,
+	tabsize=4,
+	language=Python
+}
 
 \title{Tutorial do VSCode}
 \author{Python para Todos}
@@ -176,6 +191,63 @@
 			\item \textbf{pygame.draw.circle(tela, COR, (x, y), raio)}: cria um círculo, que ficará na tela, com uma determinada cor, terá uma posição específica e um raio
 			\item \textbf{pg.display.update()}: atualiza a tela baseado no clock
 		\end{itemize}
+	\end{frame}
+	
+	
+	\begin{frame}[fragile]{Uma breve visão do Pygame}
+		\begin{lstlisting}
+import pygame as pg # importa a biblioteca do pygame
+		
+pg.init() # Inicializa o Pygame
+	
+largura, altura = 800, 600 # Tamanho da janela
+tela = pg.display.set_mode((largura, altura)) #define o tamanho da tela
+pg.display.set_caption("Teste") #Coloca uma legenda para a tela
+	
+x, y = 100,100 #define a posição inicial do jogador		
+velocidade = 5 #vai definir a velocidade do personagem mexendo na tela
+clock = pg.time.Clock() #cria a variável do clock do jogo
+		\end{lstlisting}
+	\end{frame}
+	
+	\begin{frame}[fragile]{Uma breve visão do Pygame}
+		\begin{lstlisting}
+while True:
+	clock.tick(60)  # 60 FPS
+	tela.fill('white') #preenche o fundo com a cor branca
+	for evento in pg.event.get():
+		if evento.type == pg.QUIT: #caso o jogo foi fechado
+			pg.quit()
+	teclas = pg.key.get_pressed() #pega tecla digitada
+	if teclas[pg.K_a]:
+		x -= velocidade #diminui a posicao do x
+	if teclas[pg.K_d]:
+		x += velocidade #aumenta a posicao do x
+	if teclas[pg.K_w]:
+		y -= velocidade #diminui a posicao do y
+	if teclas[pg.K_s]:
+		y += velocidade #aumenta a posicao do y
+	pg.draw.rect(tela,'red',(x, y, 50, 50))
+	pg.display.update() #atualiza a tela	
+		\end{lstlisting}
+	\end{frame}
+	
+	\begin{frame}{Uma breve visão do Pygame}
+		Teremos algo assim:
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Imagem8}
+			\caption{}
+			\label{fig:imagem8}
+		\end{figure}
+		
+	\end{frame}
+	
+	\section{Criando o jogo da cobrinha}
+	\begin{frame}{Criando o jogo da cobrinha}
+		
+		
 	\end{frame}
 	
 \end{document}}
