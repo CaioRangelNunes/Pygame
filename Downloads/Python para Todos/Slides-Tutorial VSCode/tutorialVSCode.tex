@@ -9,6 +9,10 @@
 \usefonttheme{serif}
 \usepackage{graphicx}
 
+
+
+
+
 \title{Tutorial do VSCode}
 \author{Python para Todos}
 \date{\today}
@@ -87,6 +91,91 @@
 	\begin{frame}{Executando o arquivo}
 		\centering % Centraliza a imagem
 		\includegraphics[width=1.2\textwidth]{Imagem4.png}
+	\end{frame}
+	
+	\section{O que é o Pygame?}
+	\begin{frame}{O que é o Pygame?}
+		O PyGame é uma biblioteca do Python para criação de jogos 2D, permitindo:
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Imagem5}
+			\label{fig:imagem5}
+		\end{figure}
+		
+		\begin{itemize}
+			\item Criar movimentação para personagens
+			\item Gerar cenário
+			\item Colocar música
+			\item Colocar Sprites para os personagens
+		\end{itemize}
+		
+	\end{frame}
+	
+	\section{Vantagens do Pygame}
+	\begin{frame}{Vantagens do Pygame}
+		
+		\begin{itemize}
+			\item Simples de aprender (utiliza Python)
+			\item Não é uma Game Engine pesada para rodar
+			\item Porta de entrada para outras plataformas de criação de jogos, como:
+			\begin{itemize}
+				\item \textbf{Godot} (utiliza uma linguagem semelhante à Python)
+				\item \textbf{Unreal Engine}
+				\item \textbf{Game Maker Studio}
+			\end{itemize}
+		\end{itemize}
+		
+	\end{frame}
+	
+	\section{O que iremos criar nesse curso?}
+	\begin{frame}{O que iremos criar nesse curso?}
+		
+		Nesse curso, iremos criar dois jogos simples:
+		
+		\begin{itemize}
+			\item \textbf{Snake (Jogo da cobrinha)}: O clássico jogo da cobrinha em que você deve coletar maçãs que aparecem aleatoriamente no mapa
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.3\linewidth]{"Imagem 6"}
+				\label{fig:imagem-6}
+			\end{figure}
+		\end{itemize}
+		
+	\end{frame}
+	
+	\begin{frame}{O que iremos criar nesse curso?}
+		
+		\begin{itemize}
+			\item \textbf{Brick Breaker}: O jogo em que você arremessa uma bola em tijolos para quebrá-los. Toda vez que um bloco é quebrado, a velocidade do jogo aumenta
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.3\linewidth]{"Imagem7"}
+				\label{fig:imagem-7}
+			\end{figure}
+		\end{itemize}
+		
+	\end{frame}
+	
+	
+	\section{Uma breve visão do Pygame}
+	\begin{frame}{Uma breve visão do Pygame}
+		Vamos mostrar alguns comandos básicos de Pygame
+		\begin{itemize}
+			\item \textbf{import pygame as pg} : importa a bilbioteca do pygame. O final "as pg" significa que estamos dando um sobrenome "pg" para o pygame para facilitar a escrita
+			\item \textbf{pg.init() e pg.quit()}: inicializa e fecha o pygame
+			\item \textbf{tela = pg.display.set\_mode((largura, altura))}: cria a tela do pygame, dado um tamanho de largura e altura
+			\item \textbf{clock = pg.time.Clock() e clock.tick(fps)}: define uma variável para ser o clock (tempo de atualização de cada tela do jogo) e quantas vezes por segundo será atualizado a tela
+		\end{itemize}
+	
+		
+	\end{frame}
+	\begin{frame}{Uma breve visão do Pygame}
+		\begin{itemize}
+			\item \textbf{pg.key.get\_pressed()} : Pega a tecla digitada pelo usuário no momento (usada para definir a movimentação do personagem)
+			\item \textbf{pg.draw.rect(tela, COR, (x, y, largura, altura))}: cria um objeto retangular, que ficará na tela, com uma determinada cor, terá um posição (coordenada) específica e um tamanho (largura e altura)
+			\item \textbf{pygame.draw.circle(tela, COR, (x, y), raio)}: cria um círculo, que ficará na tela, com uma determinada cor, terá uma posição específica e um raio
+			\item \textbf{pg.display.update()}: atualiza a tela baseado no clock
+		\end{itemize}
 	\end{frame}
 	
 \end{document}}
